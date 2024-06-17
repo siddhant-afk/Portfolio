@@ -3,7 +3,7 @@ import image from "../assets/self-img.jpeg"
 function About(){
 
     return(
-        <section className="about">
+        <section className="about text-slate-200">
              <div className="section-heading">
 
              <h1 className="text-2xl font-bold"><span>About Me</span></h1> 
