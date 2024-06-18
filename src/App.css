@@ -57,7 +57,8 @@ header {
 }
 
 @media only screen and (max-width : 900px) {
-
+   
+   
   .hamburger {
     display: block;
     cursor: pointer;
@@ -345,14 +346,14 @@ header {
   margin-top: 7%;
 }
 
-.contact button{
+.contact a{
   background-color: #46b96c;
   padding: 1%;
   border-radius: 7%;
  
 }
 
-.contact button:hover{
+.contact a:hover{
   background-color: #68c487;
   
  
@@ -369,3 +370,112 @@ header {
 
 
 
+@media only screen and (max-width : 900px) {
+ .hero{
+  font-size: 1rem;
+ }
+ .hero h1{
+  font-size: 3.2rem;
+ }
+ .hero h2{
+  font-size: 3rem;
+ }
+
+ .about{
+  margin-top: 25%;
+ }
+ .section-heading{
+  display: block;
+
+ }
+
+ .section-heading h1{
+  margin-left: 28%;
+ }
+
+ .section-heading hr{
+  display: none;
+ }
+
+ .about-content{
+  display: block;
+  
+ }
+ .about-content img{
+  margin-left: 10%;
+  margin-bottom: 5%;
+ }
+
+ .experience-heading{
+  display: block;
+  text-decoration: underline 3px #46b96c;
+  
+ }
+ .experience-heading hr{
+  display: none;
+  
+ }
+ .list-group{
+  display: block;
+ }
+ .sidebar{
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+ }
+
+ .active-exp{
+  border-left: none;
+  border-bottom: #46b96c 1px solid;
+ }
+
+ .exp-content{
+  margin-top : 15%;
+ }
+
+ .projects-heading{
+  display: block;
+ }
+
+ .projects-heading hr{
+  display: none;
+ }
+.project-display{
+  display: block;
+  padding-left: 7%;
+  
+}
+.card{
+  height: 200px;
+  width: 250px;
+  
+}
+
+.card h1{
+  font-size: 1.2rem;
+  margin-top: 10%;
+}
+
+.card br{
+  display: none;
+}
+.card p{
+  font-size: 0.8rem;
+}
+.github-logo{
+  padding-top: 7%;
+  transform: scale(1.5);
+}
+.github-logo:hover{
+  transform: scale(1.6);
+}
+
+.contact a{
+  padding: 5%;
+  
+}
+.footer{
+  margin-top: 15%;
+}
+}
