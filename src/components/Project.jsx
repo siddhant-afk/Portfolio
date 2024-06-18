@@ -21,12 +21,18 @@ function Project() {
             description: "This project aims to explore the potential and feasibility of predicting whether a person is suffering from autism spectrum disorder (ASD).",
             url : "https://github.com/siddhant-afk/Autism-Detection"
         },
+        {
+            title: "PowerUp",
+            description: "A neural network that predicts and plots estimated electricity usage and trends",
+            url : "https://github.com/siddhant-afk/TeamIndra"
+        },
+      
       
     ]
 
 
     return (
-        <section className="projects">
+        <section id="projects" className="projects">
             <div className="projects-heading">
                 <hr />
                 <h1 className="text-center text-2xl font-bold ">Some things I've built</h1>
@@ -36,7 +42,7 @@ function Project() {
             <div className="project-display">
                 {projects.map(project => {
 
-                    return <Card title = {project.title} description = {project.description}></Card>
+                    return <Card title = {project.title} description = {project.description} url = {project.url}></Card>
 
                 })}
 

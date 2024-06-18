@@ -44,7 +44,7 @@ function Experience() {
     }
 
     return (
-        <div className="experience">
+        <div id="experience" className="experience">
             <div className="experience-heading">
                 <hr />
                 <h1 className="text-2xl font-bold text-center">Where I've worked</h1>

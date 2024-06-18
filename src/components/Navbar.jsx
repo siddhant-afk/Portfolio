@@ -22,17 +22,17 @@ function Navbar() {
             <nav className={hamburger + " nav-bar"}>
                 <ul>
                     <li>
-                        <a href="" className="active">About</a>
+                        <a href="#about`">About</a>
                     </li>
 
                     <li>
-                        <a href="">Experience</a>
+                        <a href="#experience">Experience</a>
                     </li>
                     <li>
-                        <a href="">Work</a>
+                        <a href="#projects">Work</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>

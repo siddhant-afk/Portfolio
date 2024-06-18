@@ -4,12 +4,13 @@ body {
 
 header {
 
-  margin: 1.5% 11% 0 11%;
+  margin: 1.5% 11% 3% 11%;
   width: 78%;
   padding: 1% 3% 1% 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 
 
 }
@@ -338,3 +339,33 @@ header {
    
   transform : scale(1.1);
 }
+
+.contact{
+
+  margin-top: 7%;
+}
+
+.contact button{
+  background-color: #46b96c;
+  padding: 1%;
+  border-radius: 7%;
+ 
+}
+
+.contact button:hover{
+  background-color: #68c487;
+  
+ 
+}
+
+.footer{
+  margin-left: 11%;
+  margin-top: 5%;
+  width: 78%;
+  border-top : solid 1px gray;
+  padding : 3%;
+ 
+}
+
+
+
